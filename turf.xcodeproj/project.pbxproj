@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B650A4ED296CB0720038F58A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B650A4EC296CB0720038F58A /* FirebaseAuth */; };
 		B6769B16296B4FD80021DE27 /* turfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6769B15296B4FD80021DE27 /* turfApp.swift */; };
 		B6769B18296B4FD80021DE27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6769B17296B4FD80021DE27 /* ContentView.swift */; };
 		B6769B1A296B4FD80021DE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6769B19296B4FD80021DE27 /* Assets.xcassets */; };
 		B6769B1D296B4FD80021DE27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6769B1C296B4FD80021DE27 /* Preview Assets.xcassets */; };
 		B6769B29296B51DE0021DE27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6769B28296B51DE0021DE27 /* GoogleService-Info.plist */; };
-		B6769B2C296B529E0021DE27 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B6769B2B296B529E0021DE27 /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B6769B12296B4FD80021DE27 /* turf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = turf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6769B12296B4FD80021DE27 /* turf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = turf.app; path = "/Users/jimlambert/Desktop/Swift Projects/turf/build/Debug-iphoneos/turf.app"; sourceTree = "<absolute>"; };
 		B6769B15296B4FD80021DE27 /* turfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turfApp.swift; sourceTree = "<group>"; };
 		B6769B17296B4FD80021DE27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6769B19296B4FD80021DE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6769B2C296B529E0021DE27 /* FirebaseAuth in Frameworks */,
+				B650A4ED296CB0720038F58A /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,16 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				B6769B14296B4FD80021DE27 /* turf */,
-				B6769B13296B4FD80021DE27 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		B6769B13296B4FD80021DE27 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B6769B12296B4FD80021DE27 /* turf.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B6769B14296B4FD80021DE27 /* turf */ = {
@@ -91,7 +82,7 @@
 			);
 			name = turf;
 			packageProductDependencies = (
-				B6769B2B296B529E0021DE27 /* FirebaseAuth */,
+				B650A4EC296CB0720038F58A /* FirebaseAuth */,
 			);
 			productName = turf;
 			productReference = B6769B12296B4FD80021DE27 /* turf.app */;
@@ -124,7 +115,7 @@
 			packageReferences = (
 				B6769B2A296B529E0021DE27 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
-			productRefGroup = B6769B13296B4FD80021DE27 /* Products */;
+			productRefGroup = B6769B09296B4FD80021DE27;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -287,7 +278,7 @@
 				INFOPLIST_FILE = turf/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -319,7 +310,7 @@
 				INFOPLIST_FILE = turf/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -372,7 +363,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B6769B2B296B529E0021DE27 /* FirebaseAuth */ = {
+		B650A4EC296CB0720038F58A /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B6769B2A296B529E0021DE27 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
