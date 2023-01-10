@@ -6,14 +6,25 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct ContentView: View {
     var body: some View {
         VStack {
             Text("Hello, World!")
         }
-        
     }
+    
+    
+    
+    
+    // FIREBASE SDK FUNCTIONS
+    //Register Function
+    func firebaseRegister() {
+        //
+    }
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
