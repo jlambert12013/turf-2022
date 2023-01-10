@@ -40,6 +40,7 @@
 		B61C59AA296D59E300556920 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				B61C59AD296D5F8E00556920 /* Login */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -59,6 +60,22 @@
 			path = Modifiers;
 			sourceTree = "<group>";
 		};
+		B61C59AD296D5F8E00556920 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B61C59AE296D5F9400556920 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B61C59AE296D5F9400556920 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B61C59A8296D58B200556920 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B6769B09296B4FD80021DE27 = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +93,6 @@
 				B6769B15296B4FD80021DE27 /* turfApp.swift */,
 				B6769B19296B4FD80021DE27 /* Assets.xcassets */,
 				B6769B1B296B4FD80021DE27 /* Preview Content */,
-				B61C59A8296D58B200556920 /* LoginView.swift */,
 			);
 			path = turf;
 			sourceTree = "<group>";
