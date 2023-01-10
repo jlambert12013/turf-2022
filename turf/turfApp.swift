@@ -21,12 +21,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct turfApp: App {
     
-    // Adding Firebase
+    // Adding Firebase to App Delegate
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
