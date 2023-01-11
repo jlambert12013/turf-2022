@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B61C59A9296D58B200556920 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C59A8296D58B200556920 /* LoginView.swift */; };
 		B650A4ED296CB0720038F58A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B650A4EC296CB0720038F58A /* FirebaseAuth */; };
 		B6769B16296B4FD80021DE27 /* turfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6769B15296B4FD80021DE27 /* turfApp.swift */; };
 		B6769B1A296B4FD80021DE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6769B19296B4FD80021DE27 /* Assets.xcassets */; };
 		B6769B1D296B4FD80021DE27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6769B1C296B4FD80021DE27 /* Preview Assets.xcassets */; };
 		B6769B29296B51DE0021DE27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6769B28296B51DE0021DE27 /* GoogleService-Info.plist */; };
+		B6A0C7EF296EA7FB00C276FA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A0C7EE296EA7FB00C276FA /* LoginView.swift */; };
+		B6A0C7F3296EA9BB00C276FA /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A0C7F2296EA9BB00C276FA /* TextInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B61C59A7296D589900556920 /* turf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = turf.app; path = "/Users/jimlambert/Desktop/Swift Projects/turf/build/Debug-iphoneos/turf.app"; sourceTree = "<absolute>"; };
-		B61C59A8296D58B200556920 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B6630A83296E1BA6005A2800 /* turf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = turf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6769B15296B4FD80021DE27 /* turfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turfApp.swift; sourceTree = "<group>"; };
 		B6769B19296B4FD80021DE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6769B1C296B4FD80021DE27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6769B23296B502A0021DE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B6769B28296B51DE0021DE27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6A0C7EE296EA7FB00C276FA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B6A0C7F2296EA9BB00C276FA /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,61 +39,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B61C59AA296D59E300556920 /* Feature */ = {
-			isa = PBXGroup;
-			children = (
-				B61C59AD296D5F8E00556920 /* Login */,
-			);
-			path = Feature;
-			sourceTree = "<group>";
-		};
-		B61C59AB296D59F100556920 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				B61C59AC296D59FE00556920 /* Modifiers */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		B61C59AC296D59FE00556920 /* Modifiers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modifiers;
-			sourceTree = "<group>";
-		};
-		B61C59AD296D5F8E00556920 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				B61C59AE296D5F9400556920 /* View */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		B61C59AE296D5F9400556920 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B61C59A8296D58B200556920 /* LoginView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		B6769B09296B4FD80021DE27 = {
 			isa = PBXGroup;
 			children = (
 				B6769B14296B4FD80021DE27 /* turf */,
+				B6630A83296E1BA6005A2800 /* turf.app */,
 			);
 			sourceTree = "<group>";
 		};
 		B6769B14296B4FD80021DE27 /* turf */ = {
 			isa = PBXGroup;
 			children = (
-				B61C59AB296D59F100556920 /* Base */,
-				B61C59AA296D59E300556920 /* Feature */,
-				B6769B28296B51DE0021DE27 /* GoogleService-Info.plist */,
-				B6769B23296B502A0021DE27 /* Info.plist */,
+				B6A0C7F0296EA98E00C276FA /* Base */,
+				B6A0C7EB296EA7D100C276FA /* Feature */,
 				B6769B15296B4FD80021DE27 /* turfApp.swift */,
 				B6769B19296B4FD80021DE27 /* Assets.xcassets */,
+				B6769B23296B502A0021DE27 /* Info.plist */,
+				B6769B28296B51DE0021DE27 /* GoogleService-Info.plist */,
 				B6769B1B296B4FD80021DE27 /* Preview Content */,
 			);
 			path = turf;
@@ -103,6 +67,46 @@
 				B6769B1C296B4FD80021DE27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6A0C7EB296EA7D100C276FA /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				B6A0C7EC296EA7DE00C276FA /* Login */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		B6A0C7EC296EA7DE00C276FA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B6A0C7ED296EA7E900C276FA /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B6A0C7ED296EA7E900C276FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6A0C7EE296EA7FB00C276FA /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6A0C7F0296EA98E00C276FA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B6A0C7F1296EA9AE00C276FA /* Views */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B6A0C7F1296EA9AE00C276FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6A0C7F2296EA9BB00C276FA /* TextInput.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +129,7 @@
 				B650A4EC296CB0720038F58A /* FirebaseAuth */,
 			);
 			productName = turf;
-			productReference = B61C59A7296D589900556920 /* turf.app */;
+			productReference = B6630A83296E1BA6005A2800 /* turf.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -182,8 +186,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B61C59A9296D58B200556920 /* LoginView.swift in Sources */,
+				B6A0C7EF296EA7FB00C276FA /* LoginView.swift in Sources */,
 				B6769B16296B4FD80021DE27 /* turfApp.swift in Sources */,
+				B6A0C7F3296EA9BB00C276FA /* TextInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
